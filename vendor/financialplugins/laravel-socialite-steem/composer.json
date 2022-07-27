@@ -1,0 +1,19 @@
+{
+    "name": "financialplugins/laravel-socialite-steem",
+    "description": "Steem OAuth2 Provider for Laravel Socialite",
+    "license": "MIT",
+    "authors": [{
+        "name": "financialplugins",
+        "email": "info@financialplugins.com"
+    }],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "ext-json": "*",
+        "socialiteproviders/manager": "~3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "SocialiteProviders\\Steem\\": ""
+        }
+    }
+}
